@@ -3,13 +3,13 @@
 using namespace std;
 
 int main() {
-	int num2;
-    cout << "\n2. Enter an integer: ";
-    cin >> num2;
-    if (num2 % 2 == 0) {
-        cout << "Even\n";
+int score;
+    cout << "\n. Enter exam score: ";
+    cin >> score;
+    if (score >= 50) {
+        cout << "Pass\n";
     } else {
-        cout << "Odd\n";
+        cout << "Fail\n";
     }
     return 0;
 }
